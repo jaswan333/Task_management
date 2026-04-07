@@ -1,0 +1,21 @@
+# Root-level gitignore
+
+# Environment files (NEVER commit secrets)
+.env
+.env.*
+!.env.example
+
+# Dependency directories
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

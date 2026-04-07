@@ -1,0 +1,17 @@
+# Backend .gitignore
+
+# Dependencies
+node_modules/
+
+# Environment variables (contains DB credentials & JWT secret)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
